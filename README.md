@@ -35,31 +35,6 @@ Key Highlights
         Impact of modeling volatility with ARCH on option pricing.
         Practical insights for traders or investors evaluating PEP’s derivatives in a more realistic, volatility-aware framework.
 
-Skills & Tools Demonstrated
-
-    Python for Quantitative Finance
-        Libraries: pandas, numpy, yfinance, statsmodels (for ARCH), matplotlib (for plotting and results visualization)
-        Notebook: Jupyter/Colab environment for interactive exploration and clear presentation of results
-
-    Statistical & Mathematical Modeling
-        Moving Average / Standard Deviation calculations for baseline volatility
-        ARCH for time-varying volatility modeling
-        Markov Chains and state transition matrices
-
-    Financial Engineering
-        Pricing Formulas: Black-Scholes PDE, implied volatility considerations
-        Risk-Neutral Valuation: Discounting expected payoffs using a risk-free rate
-        Scenario Analysis: Monte Carlo approach to account for market fluctuations
-
-    Data Cleaning & Preprocessing
-        Handling NaN values, merging multiple datasets, adjusting for splits/dividends if necessary
-        Log-return calculations to reduce bias and stabilize variance
-
-    Presentation & Communication
-        Clear explanation of methodology and interpretation of results
-        Visual dashboards and plots to compare empirical vs. theoretical results
-
-    **European Option Pricing with Black-Scholes, Markov Chains, ARCH, and Monte Carlo**
 
 This project focuses on **valuing a European option** (Call or Put) using **stochastic modeling** and **quantitative finance** techniques. The underlying asset is **PepsiCo (PEP)**, and the simulation draws on:
 

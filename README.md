@@ -58,3 +58,30 @@ Skills & Tools Demonstrated
     Presentation & Communication
         Clear explanation of methodology and interpretation of results
         Visual dashboards and plots to compare empirical vs. theoretical results
+
+    **European Option Pricing with Black-Scholes, Markov Chains, ARCH, and Monte Carlo**
+
+This project focuses on **valuing a European option** (Call or Put) using **stochastic modeling** and **quantitative finance** techniques. The underlying asset is **PepsiCo (PEP)**, and the simulation draws on:
+
+1. **Data Retrieval**: Daily historical stock prices from Yahoo! Finance using Python’s `yfinance`, followed by preprocessing (log returns, handling missing values).
+
+2. **Black-Scholes Equation**: Applies the classic formula for European option pricing, assuming constant volatility and a lognormal distribution of returns.
+
+3. **Markov Chains**: Models price transitions as state-based probabilities, capturing how prices evolve from one discrete state to another based on the current state.
+
+4. **ARCH Model**: Addresses **time-varying volatility**, recognizing that price fluctuations often show volatility clustering, a limitation in basic Black-Scholes assumptions.
+
+5. **Monte Carlo Simulation**: Generates multiple possible future price paths for PEP, incorporating drift and volatility parameters. By discounting payoffs across these scenarios, the project estimates the **expected value** of the option at expiration.
+
+Key deliverables include:
+- **Comparisons** between the closed-form Black-Scholes result and the **simulated** Monte Carlo valuations.  
+- **Analysis** of how **ARCH-derived volatility** can refine pricing by reflecting conditional heteroskedasticity.  
+- **Visual dashboards** and plots to illustrate differences in option values under various assumptions.
+
+Technically, this project highlights:
+- **Python** libraries (`numpy`, `pandas`, `matplotlib`, `statsmodels`)  
+- **Quantitative finance** methods (risk-neutral valuation, implied volatility concepts)  
+- **Data pipeline** tasks (cleaning, feature engineering)  
+- **Communication skills** in explaining results and guiding stakeholders.
+
+By integrating **Black-Scholes, Markov Chain transitions, and ARCH volatility** within a **Monte Carlo** framework, the project offers a **comprehensive approach** to option pricing. It demonstrates how combining multiple models and simulations can yield **more accurate** estimations of option values, helping traders or financial analysts make **data-driven decisions** in uncertain markets.
